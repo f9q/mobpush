@@ -11,7 +11,32 @@ MobSDK {
     appKey "2d4398993569f"
     appSecret "8083311c2d4e8b3360f56215b1df3ba4"
 
-    MobPush {}
+    MobPush {
+        devInfo {
+            HUAWEI{
+                appId "101432609"
+            }
+           /* XIAOMI{
+                appId "2882303761518275094"
+                appKey "5301827518094"
+            }
+            FCM{
+                iconRes "@mipmap/icon"
+            }
+            MEIZU{
+                appId "126361"
+                appKey "e17c711b52bf458ab1315a432f8973c1"
+            }
+            VIVO {
+                appId "17596"
+                appKey "8ed8b946-0ea0-4548-809f-d7ac90345b34"
+            }
+            OPPO{
+                appKey "30224559"
+                appSecret "6134d43204774d788b50406ad33fb885"
+            }*/
+        }
+    }
 }
 
 android {
